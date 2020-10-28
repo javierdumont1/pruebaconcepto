@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+busqueda,,,,2020-10-28 11:46:22,2020-10-28 11:46:23,0.810s,FAILED
+,,,,,,,
+Test Cases/busqueda,,,,2020-10-28 11:46:23,2020-10-28 11:46:23,0.569s,FAILED
+"openBrowser("""")",,,,2020-10-28 11:46:23,2020-10-28 11:46:23,0.303s,FAILED

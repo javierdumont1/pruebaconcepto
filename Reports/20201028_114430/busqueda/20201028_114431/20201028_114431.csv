@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+busqueda,Chrome 85.0.4183.83,,,2020-10-28 11:44:36,2020-10-28 11:44:56,19.851s,PASSED
+,,,,,,,
+Test Cases/busqueda,Chrome 85.0.4183.83,,,2020-10-28 11:44:36,2020-10-28 11:44:56,19.528s,PASSED
+"openBrowser("""")",Chrome 85.0.4183.83,,,2020-10-28 11:44:37,2020-10-28 11:44:39,2.224s,PASSED
+"navigateToUrl(""https://ecqa.petco.com.mx/petco/en/login"")",Chrome 85.0.4183.83,,,2020-10-28 11:44:39,2020-10-28 11:44:46,6.744s,PASSED
+"setText(findTestObject(""Object Repository/busqueda/Page_Ingresar  Petco Mexico/input_Direccin de Correo Electrnico_j_username""), ""javierdumont@gmail.com"")",Chrome 85.0.4183.83,,,2020-10-28 11:44:46,2020-10-28 11:44:48,2.701s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/busqueda/Page_Ingresar  Petco Mexico/input_Contrasea_j_password""), ""NlV8iAafsyYWagnpn4cCvQ=="")",Chrome 85.0.4183.83,,,2020-10-28 11:44:48,2020-10-28 11:44:49,0.395s,PASSED
+"click(findTestObject(""Object Repository/busqueda/Page_Ingresar  Petco Mexico/button_Iniciar Sesin""))",Chrome 85.0.4183.83,,,2020-10-28 11:44:49,2020-10-28 11:44:49,0.355s,PASSED
+"setText(findTestObject(""Object Repository/busqueda/Page_Petco Mexico  Petco Mxico/input_Royal Canin Maxi Dermacomfort 15.88 kg_text""), ""royal-canin"")",Chrome 85.0.4183.83,,,2020-10-28 11:44:49,2020-10-28 11:44:54,5.163s,PASSED
+"click(findTestObject(""Object Repository/busqueda/Page_Petco Mexico  Petco Mxico/span_Royal Canin Maxi Dermacomfort 15.88 kg_1c92bc""))",Chrome 85.0.4183.83,,,2020-10-28 11:44:54,2020-10-28 11:44:56,1.527s,PASSED
+closeBrowser(),Chrome 85.0.4183.83,,,2020-10-28 11:44:56,2020-10-28 11:44:56,0.090s,PASSED

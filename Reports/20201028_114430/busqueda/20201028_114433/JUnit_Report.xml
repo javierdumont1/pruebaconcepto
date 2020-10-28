@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="busqueda" time="24.83" tests="1" failures="0" errors="0">
+   <testsuite name="busqueda" tests="1" failures="0" errors="0" time="24.83" timestamp="2020-10-28 11:44:37" hostname="javier - debian" id="Test Suites/busqueda">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/javier/git/pruebaconcepto/Reports/20201028_114430/busqueda/20201028_114433"/>
+         <property name="logFiles" value="/home/javier/git/pruebaconcepto/Reports/20201028_114430/busqueda/20201028_114433/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="javier - debian"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="7.7.2.205"/>
+         <property name="browser" value="Firefox 68.0"/>
+         <property name="hostAddress" value="127.0.1.1"/>
+         <property name="sessionId" value="92cd18c0-35d4-424f-9aa4-c78a4ac2544c"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/busqueda" time="24.38" classname="Test Cases/busqueda" status="PASSED">
+         <system-out><![CDATA[2020-10-28 11:44:37 - [TEST_CASE][PASSED] - Test Cases/busqueda: Test Cases/busqueda
+
+2020-10-28 11:44:38 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-10-28 11:44:38 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-10-28 11:44:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-10-28 11:44:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-10-28 11:44:43 - [TEST_STEP][PASSED] - navigateToUrl("https://ecqa.petco.com.mx/petco/en/login"): Navigate to 'https://ecqa.petco.com.mx/petco/en/login' successfully
+
+2020-10-28 11:44:44 - [MESSAGE][PASSED] - Navigate to 'https://ecqa.petco.com.mx/petco/en/login' successfully
+
+2020-10-28 11:44:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/busqueda/Page_Ingresar  Petco Mexico/input_Direccin de Correo Electrnico_j_username"), "javierdumont@gmail.com"): Text 'javierdumont@gmail.com' is set on object 'Object Repository/busqueda/Page_Ingresar  Petco Mexico/input_Direccin de Correo Electrnico_j_username'
+
+2020-10-28 11:44:54 - [MESSAGE][PASSED] - Text 'javierdumont@gmail.com' is set on object 'Object Repository/busqueda/Page_Ingresar  Petco Mexico/input_Direccin de Correo Electrnico_j_username'
+
+2020-10-28 11:44:54 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/busqueda/Page_Ingresar  Petco Mexico/input_Contrasea_j_password"), "NlV8iAafsyYWagnpn4cCvQ=="): Text ****** has been set on object 'Object Repository/busqueda/Page_Ingresar  Petco Mexico/input_Contrasea_j_password'
+
+2020-10-28 11:44:55 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/busqueda/Page_Ingresar  Petco Mexico/input_Contrasea_j_password'
+
+2020-10-28 11:44:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/busqueda/Page_Ingresar  Petco Mexico/button_Iniciar Sesin")): Object: 'Object Repository/busqueda/Page_Ingresar  Petco Mexico/button_Iniciar Sesin' is clicked on
+
+2020-10-28 11:44:56 - [MESSAGE][PASSED] - Object: 'Object Repository/busqueda/Page_Ingresar  Petco Mexico/button_Iniciar Sesin' is clicked on
+
+2020-10-28 11:44:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/busqueda/Page_Petco Mexico  Petco Mxico/input_Royal Canin Maxi Dermacomfort 15.88 kg_text"), "royal-canin"): Text 'royal-canin' is set on object 'Object Repository/busqueda/Page_Petco Mexico  Petco Mxico/input_Royal Canin Maxi Dermacomfort 15.88 kg_text'
+
+2020-10-28 11:44:57 - [MESSAGE][PASSED] - Text 'royal-canin' is set on object 'Object Repository/busqueda/Page_Petco Mexico  Petco Mxico/input_Royal Canin Maxi Dermacomfort 15.88 kg_text'
+
+2020-10-28 11:44:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/busqueda/Page_Petco Mexico  Petco Mxico/span_Royal Canin Maxi Dermacomfort 15.88 kg_1c92bc")): Object: 'Object Repository/busqueda/Page_Petco Mexico  Petco Mxico/span_Royal Canin Maxi Dermacomfort 15.88 kg_1c92bc' is clicked on
+
+2020-10-28 11:44:58 - [MESSAGE][PASSED] - Object: 'Object Repository/busqueda/Page_Petco Mexico  Petco Mxico/span_Royal Canin Maxi Dermacomfort 15.88 kg_1c92bc' is clicked on
+
+2020-10-28 11:44:58 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-10-28 11:45:02 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-10-28 11:44:37 - [TEST_SUITE][PASSED] - busqueda: Test Cases/busqueda]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
