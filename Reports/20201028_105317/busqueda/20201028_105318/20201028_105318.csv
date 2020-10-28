@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+busqueda,Chrome 85.0.4183.83,,,2020-10-28 10:53:20,2020-10-28 10:53:42,22.359s,PASSED
+,,,,,,,
+Test Cases/busqueda,Chrome 85.0.4183.83,,,2020-10-28 10:53:20,2020-10-28 10:53:42,22.131s,PASSED
+"openBrowser("""")",Chrome 85.0.4183.83,,,2020-10-28 10:53:20,2020-10-28 10:53:22,1.171s,PASSED
+"navigateToUrl(""https://ecqa.petco.com.mx/petco/en/login"")",Chrome 85.0.4183.83,,,2020-10-28 10:53:22,2020-10-28 10:53:23,1.605s,PASSED
+"setText(findTestObject(""Object Repository/busqueda/Page_Ingresar  Petco Mexico/input_Direccin de Correo Electrnico_j_username""), ""javierdumont@gmail.com"")",Chrome 85.0.4183.83,,,2020-10-28 10:53:23,2020-10-28 10:53:26,2.562s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/busqueda/Page_Ingresar  Petco Mexico/input_Contrasea_j_password""), ""NlV8iAafsyYWagnpn4cCvQ=="")",Chrome 85.0.4183.83,,,2020-10-28 10:53:26,2020-10-28 10:53:26,0.404s,PASSED
+"click(findTestObject(""Object Repository/busqueda/Page_Ingresar  Petco Mexico/button_Iniciar Sesin""))",Chrome 85.0.4183.83,,,2020-10-28 10:53:26,2020-10-28 10:53:27,0.382s,PASSED
+"setText(findTestObject(""Object Repository/busqueda/Page_Petco Mexico  Petco Mxico/input_Royal Canin Maxi Dermacomfort 15.88 kg_text""), ""royal-canin"")",Chrome 85.0.4183.83,,,2020-10-28 10:53:27,2020-10-28 10:53:31,4.637s,PASSED
+"click(findTestObject(""Object Repository/busqueda/Page_Petco Mexico  Petco Mxico/span_Royal Canin Maxi Dermacomfort 15.88 kg_1c92bc""))",Chrome 85.0.4183.83,,,2020-10-28 10:53:31,2020-10-28 10:53:33,1.576s,PASSED
+"click(findTestObject(""Object Repository/busqueda/Page_Search royal-canin  Petco Mexico/img_Califica este producto_lazy-grid img-re_ad3551""))",Chrome 85.0.4183.83,,,2020-10-28 10:53:33,2020-10-28 10:53:36,3.236s,PASSED
+"click(findTestObject(""Object Repository/busqueda/Page_Royal Canin Maxi Dermacomfort 15.88 kg_7e864a/button_Agregar a carrito""))",Chrome 85.0.4183.83,,,2020-10-28 10:53:36,2020-10-28 10:53:38,1.773s,PASSED
+"click(findTestObject(""Object Repository/busqueda/Page_Mi Carrito  Petco Mexico/img""))",Chrome 85.0.4183.83,,,2020-10-28 10:53:38,2020-10-28 10:53:42,4.445s,PASSED
+closeBrowser(),Chrome 85.0.4183.83,,,2020-10-28 10:53:42,2020-10-28 10:53:42,0.092s,PASSED
