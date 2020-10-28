@@ -33,11 +33,5 @@ WebUI.setText(findTestObject('Object Repository/busqueda/Page_Petco Mexico  Petc
 
 WebUI.click(findTestObject('Object Repository/busqueda/Page_Petco Mexico  Petco Mxico/span_Royal Canin Maxi Dermacomfort 15.88 kg_1c92bc'))
 
-WebUI.click(findTestObject('Object Repository/busqueda/Page_Search royal-canin  Petco Mexico/img_Califica este producto_lazy-grid img-re_ad3551'))
-
-WebUI.click(findTestObject('Object Repository/busqueda/Page_Royal Canin Maxi Dermacomfort 15.88 kg_7e864a/button_Agregar a carrito'))
-
-WebUI.click(findTestObject('Object Repository/busqueda/Page_Mi Carrito  Petco Mexico/img'))
-
 WebUI.closeBrowser()
 
